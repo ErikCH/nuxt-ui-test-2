@@ -4,7 +4,7 @@ import "@aws-amplify/ui-vue/styles.css";
 </script>
 
 <template>
-  <h1>Hello From root</h1>
+  <h1 class="text-4xl">Hello From root</h1>
   <Authenticator>
     <template v-slot="{ user, signOut }">
       <h1>Hello {{ user.username }}!</h1>
